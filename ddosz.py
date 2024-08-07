@@ -47,15 +47,15 @@ def get_info_l4():
 def title():
     system('clear')
     stdout.write("\n")
-    stdout.write(""+Fore.BLUE+"════════════DDOS-Z════════════════════╗\n")
+    stdout.write(""+Fore.BLUE+"════════════AL_R.N TOOLS════════════════════╗\n")
     stdout.write(""+Fore.RED+"> Must be connected to the internet <\n\n")
     stdout.write(""+Fore.GREEN+"Method\n> tcp  --tcp attack\n> cfb  --bypass CF attack\n> sky  --sky method without proxy\n> get  --get request attack\n\n")
-    stdout.write(""+Fore.CYAN+"credit  :  github.com/zaczxx/ddos\n")
+    stdout.write(""+Fore.CYAN+"credit  :  github.com/AretaCera/DdosTools\n")
     stdout.write(""+Fore.BLUE+"═══════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.RED+"╔═══"+Fore.RED+"["""+Fore.RED+""+Fore.RED+"DDOS-Z"+Fore.RED+"]"+Fore.RED+"\n╚══> "+Fore.WHITE)
+    stdout.write(Fore.RED+"╔═══"+Fore.RED+"["""+Fore.RED+""+Fore.RED+"AL_R.N"+Fore.RED+"]"+Fore.RED+"\n╚══> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear" or command == "Clear" or command == "CLEAR":
         clear()
